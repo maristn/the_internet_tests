@@ -4,7 +4,7 @@ step 'Open the url "url"' do |url|
   login_page.visit(url)
 end
 
-step 'Type the "username" for username and "password" for password' do |username, password|
+step 'Type "username" for username and "password" for password' do |username, password|
   login_page.fill_field('username',username)
   login_page.fill_field('password',password)
 end

@@ -12,7 +12,7 @@ tags: the internet
 tags: login, success
 
 * Open the url "https://the-internet.herokuapp.com/login"
-* Type the "tomsmith" for username and "SuperSecretPassword!" for password
+* Type "tomsmith" for username and "SuperSecretPassword!" for password
 * Click on "Login" button
 * The text "You logged into a secure area!" must be displayed
 
@@ -22,7 +22,7 @@ tags: login, success
 tags: login, failure
 
 * Open the url "https://the-internet.herokuapp.com/login"
-* Type the "milo" for username and "SuperSecretPassword!" for password
+* Type "milo" for username and "SuperSecretPassword!" for password
 * Click on "Login" button
 * The text "Your username is invalid!" must be displayed
 
@@ -32,7 +32,7 @@ tags: login, failure
 tags: login, failure
 
 * Open the url "https://the-internet.herokuapp.com/login"
-* Type the "tomsmith" for username and "milo" for password
+* Type "tomsmith" for username and "milo" for password
 * Click on "Login" button
 * The text "Your password is invalid!" must be displayed
 
