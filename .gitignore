@@ -1,0 +1,8 @@
+.gauge
+logs
+reports
+vendor
+.DS_Store
+Gemfile.lock
+.byebug_history
+docs
